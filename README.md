@@ -24,3 +24,5 @@ There are two important scripts:
          * mounts S3 buckets
 
 The scripts start script requires the [AWS command line interface](https://aws.amazon.com/cli/).
+
+To mount the S3 bucket you also need your [AWS access key](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
