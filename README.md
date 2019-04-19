@@ -22,3 +22,6 @@ There are two important scripts:
          * associates volumes
          * mounts the EFS partition
          * mounts S3 buckets
+
+The scripts start script requires the [AWS command line interface]
+(https://aws.amazon.com/cli/).
