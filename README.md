@@ -12,3 +12,13 @@ Here's the links to the videos
 [part 2](https://youtu.be/4wH-MCSfY58)
 
 I'd recommend watching at 1.5 or 2 times speed ;)
+
+There are two important scripts: 
+
+    1. attach_volumes.sh which mounts the volumes on the instances.
+    1. start_instance.sh which :
+         * starts the ec2 instance 
+         * attaches elastic IP
+         * associates volumes
+         * mounts the EFS partition
+         * mounts S3 buckets
